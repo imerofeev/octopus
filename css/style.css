@@ -213,6 +213,31 @@ header span {
   width: 7em;
 }
 
+.legend ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 1em;
+}
+
+.legend ul li {
+  display: block;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin-right: 1em;
+}
+
+.legend .present {
+  background-color: rgb(0, 17, 255);
+  color: #ffffff;
+}
+
+.legend .future {
+  background-color: rgb(75, 255, 186);
+  color: rgb(0, 17, 255);
+}
+
 footer {
   margin-top: 3em;
   background-color: rgb(0, 17, 255);
